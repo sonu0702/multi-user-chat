@@ -2,7 +2,8 @@
 
 This is a simple real-time chat application built with React, TypeScript, and Vite for the frontend, and a Node.js/Express server with WebSockets for the backend.
 
-<img width="1501" height="888" alt="Screenshot 2025-08-16 at 10 52 43 PM" src="https://github.com/user-attachments/assets/761df0db-d784-4593-b7be-ad2c212d3b0f" />
+<img width="1501" height="901" alt="Screenshot 2025-08-16 at 11 15 46 PM" src="https://github.com/user-attachments/assets/d6b6cc62-30cc-45f5-82c7-d0c3308b08d4" />
+
 
 ## Features
 
