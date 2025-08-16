@@ -1,0 +1,152 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.friend-list {
+  width: 200px;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f7f7f7;
+}
+
+.current-user {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+.friend-list h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.friend-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.friend-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.friend-list li:hover {
+  background-color: #e7e7e7;
+}
+
+.friend-list li.selected {
+  background-color: #d7d7d7;
+  font-weight: bold;
+}
+
+.chat-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-window {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow: 1;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.message.user {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+}
+
+.message.friend {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  align-self: flex-start;
+}
+
+.message-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.message-input input {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.message-input button {
+  border: none;
+  background-color: #0084ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.no-friend-selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #888;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.login-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0084ff;
+  color: white;
+  cursor: pointer;
+}
